@@ -1,0 +1,8 @@
+# Order Book Imbalance Tracker — Dependencies
+# Intentionally minimal: only one external library needed.
+
+# WebSocket client — connects to Binance's live streaming endpoint
+websocket-client==1.8.0
+
+# Testing framework (optional, for running tests/)
+pytest==8.3.5
